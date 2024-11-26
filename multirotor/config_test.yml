@@ -1,0 +1,166 @@
+TrainEnv:
+  sections:
+  - target:
+    - 13
+    - -60.06
+    - -16.3
+    offset1:
+    - -0.15
+    offset2:
+    - -27.5
+    offset3:
+    - -11
+    offset4:
+    - -1.0
+    offset5:
+    - -1.5
+
+  - target:
+    - 6.74
+    - -97
+    - -22.3
+    offset1:
+    - 13
+    offset2:
+    - -60.06
+    offset3:
+    - -16.3
+    offset4:
+    - -1.5
+    offset5:
+    - -1.9
+
+  - target:
+    - -12.8
+    - -124.2
+    - -16.25
+    offset1:
+    - 6.74
+    offset2:
+    - -97
+    offset3:
+    - -22.3
+    offset4:
+    - -1.9
+    offset5:
+    - 3.8
+
+  - target:
+    - -45.5
+    - -137
+    - -12.5
+    offset1:
+    - -12.8
+    offset2:
+    - -124.2
+    offset3:
+    - -16.25
+    offset4:
+    - 3.8
+    offset5:
+    - 3.05
+
+  - target:
+    - -78
+    - -122
+    - -19.5
+    offset1:
+    - -45.5
+    offset2:
+    - -137
+    offset3:
+    - -12.5
+    offset4:
+    - 3.05
+    offset5:
+    - 2.45
+
+  - target:
+    - -102.3
+    - -94.3
+    - -14.5
+    offset1:
+    - -78
+    offset2:
+    - -122
+    offset3:
+    - -19.5
+    offset4:
+    - 2.45
+    offset5:
+    - 1.95
+
+  - target:
+    - -113.3
+    - -58
+    - -19
+    offset1:
+    - -102.3
+    offset2:
+    - -94.3
+    offset3:
+    - -14.5
+    offset4:
+    - 1.95
+    offset5:
+    - 1.55
+
+  - target:
+    - -102.7
+    - -27.5
+    - -13.7
+    offset1:
+    - -113.3
+    offset2:
+    - -58
+    offset3:
+    - -19
+    offset4:
+    - 1.55
+    offset5:
+    - 0.8
+
+  - target:
+    - -76
+    - -7.6
+    - -9.5
+    offset1:
+    - -102.7
+    offset2:
+    - -27.5
+    offset3:
+    - -13.7
+    offset4:
+    - 0.8
+    offset5:
+    - 0.35
+
+  - target:
+    - -41
+    - -8
+    - -8
+    offset1:
+    - -76
+    offset2:
+    - -7.6
+    offset3:
+    - -9.5
+    offset4:
+    - 0.35
+    offset5:
+    - -0.3
+
+  - target:
+    - -0.15
+    - -27.5
+    - -11
+    offset1:
+    - -41
+    offset2:
+    - -8
+    offset3:
+    - -8
+    offset4:
+    - -0.3
+    offset5:
+    - -1.0
