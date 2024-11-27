@@ -50,6 +50,10 @@ Inside the main directory of the repo
 
 ```
 conda activate RL_drone
+cd (your path)/Reinforcement-Learning-in-Controlling-Quadrotor-UAV-Flight-Actions
+
+python.exe -m pip install setuptools==65.5.0 pip==21
+pip install wheel==0.38.0
 pip install -r requirements.txt
 ```
 **4. Edit `settings.json`**
