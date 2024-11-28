@@ -50,6 +50,10 @@ Inside the main directory of the repo
 
 ```
 conda activate RL_drone
+cd (your path)/Reinforcement-Learning-in-Controlling-Quadrotor-UAV-Flight-Actions
+
+python.exe -m pip install setuptools==65.5.0 pip==21
+pip install wheel==0.38.0
 pip install -r requirements.txt
 ```
 **4. Edit `settings.json`**
@@ -104,7 +108,7 @@ python ppo_drone.py
 **1. Download the test environment and the weight**
 
 Go to the [releases](https://github.com/shawn243498/Reinforcement-Learning-in-Controlling-Quadrotor-UAV-Flight-Actions/releases) and download `Env_test.zip` . After downloading completed, extract it.
-The weight is `ppo_navigation_policy.zip`, after download you need to it into the repository.
+The weight is `ppo_navigation_policy.zip`, after download you need to it into the reinforcement_learning file in this repository.
 
 #️⃣ **2. Now, you can open up environment's executable file and run the trained model**
 
