@@ -2,11 +2,11 @@
 
 Implementation of paper - [Application of Reinforcement Learning in Controlling Quadrotor UAV Flight Actions](https://doi.org/10.3390/drones8110660)
 
+This repository is divided into two main sections. The first section, "multirotor," enables users to operate a simulated drone environment using keyboard controls. It integrates YOLOv7 with TensorRT to recognize targets within the environment and employs logical decision-making to achieve autonomous drone navigation through target frames. The second section, "reinforcement_learning," focuses on training the drone to autonomously pass through target frames using three reinforcement learning models (DQN, A2C, PPO). This includes methods utilizing raw image input as well as those incorporating YOLO. Among these, the PPO model with raw image input demonstrated the best performance in target traversal. The project is designed for a Windows-based computing environment.
+
 <p align="center">
 <img src="https://github.com/shawn243498/Reinforcement-Learning-in-Controlling-Quadrotor-UAV-Flight-Actions/blob/main/RLDroneTest.gif" width="300"/>
 </p>
-
-This repository is divided into two main sections. The first section, "multirotor," enables users to operate a simulated drone environment using keyboard controls. It integrates YOLOv7 with TensorRT to recognize targets within the environment and employs logical decision-making to achieve autonomous drone navigation through target frames. The second section, "reinforcement_learning," focuses on training the drone to autonomously pass through target frames using three reinforcement learning models (DQN, A2C, PPO). This includes methods utilizing raw image input as well as those incorporating YOLO. Among these, the PPO model with raw image input demonstrated the best performance in target traversal. The project is designed for a Windows-based computing environment.
 
 ### Libraries & Tools
 - [Stable Baselines 3](https://github.com/DLR-RM/stable-baselines3)
