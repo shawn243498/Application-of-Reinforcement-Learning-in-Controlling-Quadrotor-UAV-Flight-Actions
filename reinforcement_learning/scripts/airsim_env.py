@@ -233,6 +233,7 @@ class TestEnv(AirSimDroneEnv):
     def __init__(self, ip_address, image_shape, env_config):
         self.eps_n = 0
         super(TestEnv, self).__init__(ip_address, image_shape, env_config)
+        self.random_start = False
         self.numbersX = []
         self.numbersY = []
         self.numbersZ = []
@@ -316,7 +317,7 @@ class TestEnv(AirSimDroneEnv):
             self.episode_flight_time = 0
 
             ## final
-            if self.eps_n == 1:
+            if self.eps_n == 11:
                 ## test
                 print("self.mean_flight_time_array : ", self.mean_flight_time_array)
                 print("self.mean_flight_time_array : ", len(self.mean_flight_time_array))
@@ -376,7 +377,7 @@ class TestEnv(AirSimDroneEnv):
                 self.episode_flight_time = sum(self.flight_time_array) / len(self.flight_time_array)
                 self.mean_flight_time_array.append(self.flight_time)
 
-            if self.count_pass == 4:
+            if self.count_pass == 11:
                 self.mean_total_target_go_through_array.append(self.target_go_through)
                 self.num_pass.append(self.eps_n)
                 self.whole_field += 1
@@ -402,7 +403,7 @@ class TestEnv(AirSimDroneEnv):
                 self.episode_flight_time = 0
 
                 ## final
-                if self.eps_n == 1:
+                if self.eps_n == 11:
                     ## test
                     print("self.mean_flight_time_array : ", self.mean_flight_time_array)
                     print("self.mean_flight_time_array : ", len(self.mean_flight_time_array))
@@ -470,7 +471,7 @@ class TestEnv(AirSimDroneEnv):
             self.episode_flight_time = 0
 
             ## final
-            if self.eps_n == 1:
+            if self.eps_n == 11:
                 ## test
                 print("self.mean_flight_time_array : ", self.mean_flight_time_array)
                 print("self.mean_flight_time_array : ", len(self.mean_flight_time_array))
